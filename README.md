@@ -8,7 +8,7 @@ J'ai utiliser l'API Openweathermap et écrit le script en javascript.
 
 ## Built With
 
-* [Clique](htttp://marinekielbowicz.fr/meteo) - Lien pour la démo
+* [Clique](htttps://marinekielbowicz.fr/meteo) - Lien pour la démo
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
