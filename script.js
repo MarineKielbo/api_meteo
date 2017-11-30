@@ -9,9 +9,8 @@ $(document).ready(function(){
                 type: "GET",
                 dataType: "json",
                 success: function(data){
-                    console.log(data);
-                    var widget = show(data);
-                    $("#show").html(widget);
+                    var donnee = show(data);
+                    $("#show").html(donnee);
                     $("#city").val('');
                 }
             });
@@ -23,7 +22,7 @@ $(document).ready(function(){
 });
 
 function show(data) {
-    return "<p>" + data.name + "</p>" + '<img src="http://openweathermap.org/img/w/' + data.weather[0].icon + '.png">'+"<p>Temps: " + data.weather[0].main + "</p>" +
+    return '<div id="img"><img src="http://openweathermap.org/img/w/' + data.weather[0].icon + '.png"></div>'+"<p>" + data.name + "</p>" + "<p>Temps: " + data.weather[0].main + "</p>" +
         "<p>Température: " + data.main.temp + " °C</p>";
 
 }
