@@ -1,4 +1,4 @@
-<h1><strong>Météo en direct</strong></h1>
+_Météo en direct_
 
 Une application web pour avoir la météo en direct.
 J'ai utiliser l'API Openweathermap et écrit le script en javascript.
