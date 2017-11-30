@@ -1,6 +1,5 @@
-<strong>Météo en direct</strong>
+<h1><strong>Météo en direct</strong></h1>
 
 Une application web pour avoir la météo en direct.
 J'ai utiliser l'API Openweathermap et écrit le script en javascript.
-
-Lien pour la démo: htttp://marinekielbowicz.fr/meteo
+ <a href="htttp://marinekielbowicz.fr/meteo">Lien pour la démo:</<a>
