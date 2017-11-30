@@ -3,19 +3,21 @@
 <head>
     <title>Méteo</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <h1>Méteo en temps réel</h1>
-    <span id="error"></span>
-    <div id="city">
-    <label>Ville</label>
-        <input type="text" name="ville" id="ville">
-        <button id="search">Rechercher meteo</button>
+    <div id="content">
+        <h1>Méteo en temps réel</h1>
+        <span id="error"></span>
+        <div id="city">
+        <label>Ville: </label>
+            <input type="text" name="ville" id="ville">
+            <button id="search">Rechercher meteo</button>
+        </div>
+        <div id="show"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </div>
-    <div id="show">
-        <div id="showIcon">
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
