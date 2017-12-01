@@ -7,13 +7,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <div id="content">
-        <h1>Méteo en temps réel</h1>
+    <h1>Méteo en temps réel</h1>
+    <div class="halfCircleRight">
+        <div id="image">
+            <img src="sun.png" alt="sun">
+            <img src="snow.png" alt="snow">
+            <img src="rain.png" alt="rain">
+            <img src="cloudy.png" alt="cloudy">
+        </div>
         <span id="error"></span>
         <div id="city">
-        <label>Ville: </label>
+        <label><strong>Ville: </strong></label>
             <input type="text" name="ville" id="ville">
-            <button id="search">Rechercher meteo</button>
+            <button id="search"><strong>Rechercher meteo</strong></button>
         </div>
         <div id="show"></div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
