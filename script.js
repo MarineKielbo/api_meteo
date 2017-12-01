@@ -23,6 +23,6 @@ $(document).ready(function(){
 
 function show(data) {
     return '<div id="img"><img src="http://openweathermap.org/img/w/' + data.weather[0].icon + '.png"></div>'+"<p>" + data.name + "</p>" + "<p>Temps: " + data.weather[0].main + "</p>" +
-        "<p>Température: " + data.main.temp + " °C</p>";
+        "<p>Température: " + data.main.temp + " °C</p>" + "<p>Température min: " + data.main.temp_min + " °C</p>" + "<p>Température max: " + data.main.temp_max + " °C</p>";
 
 }
